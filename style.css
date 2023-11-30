@@ -1,5 +1,6 @@
 body{
     margin-left: 50px;
+    color: #1b1642;
 }
 section{
     /* background-color: turquoise; */
@@ -25,8 +26,12 @@ section{
 }
 .demo{
     border: 2px solid white;
+    background-color: grey;
     text-decoration: none;
     color: #1b1642;
+    border-width: 9px;
+    border-radius: 2px;
+    
 }
 .for{
     border:  2px solid #1b1642;
@@ -50,14 +55,72 @@ section{
     /* text-align: center; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     top: 1000px;
-    left: 500px;
+    left: 400px;
     font-size:40px ;
 }
 .rom{
     position: absolute;
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    top: 900px;
+    top: 930px;
     left: 300px;
     /* margin-left:80px ; */
+}
+.we{
+    position: absolute;
+    top: 1090px;
+    left: 350px;
+}
+.more{
+    position: absolute;
+    top: 1150px;
+    left: 500px;
+    color: #1b1642;
+}
+.a{
+    color: #1b1642;
+}
+.app{
+    position: absolute;
+    top: 1200px; 
+    height: 500px;
+}
+.flex-container{
+    display: flex;
+
+}
+.flex-item{
+    padding: 20px;
+    position: absolute;
+    top: 1300px;
+    border:  2px solid gray;
+    width: 500px;
+    height: 150px;
+    color: #1b1642;
+    left: 700px;
+    /* background-color: white; */
+}
+.flex-item2{
+    padding: 20px;
+    position: absolute;
+    top: 1530px;
+    border:  2px solid gray;
+    width: 500px;
+    height: 150px;
+    color: #1b1642;
+    left: 700px;
+}
+.flex-item3{
+    padding: 20px;
+    position: absolute;
+    top: 1530px;
+    border:  2px solid gray;
+    width: 500px;
+    height: 150px;
+    color: #1b1642;
+    left: 700px;
+}
+.lang{
+    text-decoration:  none;
+    color: #1b1642;
 }
